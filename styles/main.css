@@ -1,0 +1,65 @@
+body {
+	color: #ffffff;
+    background: #000;
+    font-family: verdana;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#test {
+    font-family: visitor;
+}
+#screen {
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+
+div {
+	display: block;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+#head a {
+	float: right;
+}
+
+.main {
+	width: 640px;
+    margin: auto;
+    padding: 10px 10px 0px 10px;
+    text-align: left;
+}
+
+#play {
+	margin: auto;
+    text-align: center;
+    background: #000000;
+    padding: 5px;
+    border-top: 1px solid #444444;
+    border-bottom: 1px solid #444444;
+}
+
+#rest {
+	position: relative;
+}
+
+
+@font-face {
+  font-family: 'visitor';
+  font-style: normal;
+  src: local('visitor'), url(../img/fonts/visitor.tff) format('ttf');
+}
+
+/*@import url(https://fonts.googleapis.com/css?family=Lobster);*/
+
+/*@font-face {
+    font-family: 'arcade';
+    src: url('../img/fonts/arcade.ttf');
+}*/

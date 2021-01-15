@@ -1,0 +1,10 @@
+[
+	{"type": "auras",
+	"names":["basic"]},
+
+	{"type": "icons", 
+	"names":["selector", "aura"]},
+
+	{"type": "shapes",
+	"names":["hotbar", "hotbarItem", "hotbarItemSide", "UIContent", "blockSelector"]}
+]

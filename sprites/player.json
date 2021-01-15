@@ -1,0 +1,47 @@
+{
+	"imageURL":"./img/smileys.png",
+	"width": 26,
+	"height": 26,
+
+	"frames": [
+		{
+			"name":"smile",
+			"pos": 0
+		},{
+			"name":"grin",
+			"pos": 1
+		},{
+			"name":"tongue",
+			"pos": 2
+		},{
+			"name":"happy",
+			"pos": 3
+		},{
+			"name":"angry",
+			"pos": 4
+		},{
+			"name":"sad",
+			"pos": 5
+		},{
+			"name":"suprised",
+			"pos": 6
+		},{
+			"name":"pokerface",
+			"pos": 7
+		},{
+			"name":"batman",
+			"pos": 8
+		}, {
+			"name":"sleepy",
+			"pos": 9,
+			"animFramesCount": 5,
+			"animSpeed":15
+		},{
+			"name":"superman",
+			"pos":10
+		},{
+			"name":"mushroom",
+			"pos":11
+		}
+	]
+}

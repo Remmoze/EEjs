@@ -1,0 +1,16 @@
+{
+	"worldsize": [25, 25],
+    "spawnpoint": [1, 1],
+    "define":[
+    	"special:blackblock",
+    	"special:faceblock",
+        "arrows:up"
+    ],
+
+    "chunks":[
+    	{
+    		"loc":0,
+    		"fg":[0,1,1,0,2]
+    	}
+    ]
+}

@@ -1,0 +1,1 @@
+alert('Your browser doesn\'t have native support for modules. wait for upcoming updates or play in Google Chrome.');

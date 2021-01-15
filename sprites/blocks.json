@@ -1,0 +1,115 @@
+{
+    "imageURL": "./img/blocks.png",
+    "blockW": 16,
+    "blockH": 16,
+
+    "packs": [
+        {
+            "name":"",
+            "index": 0,
+            "layer": "background",
+            "blocks": [
+                {"name": "empty", "layer": "foreground"},
+                {"name": "air"},
+                {"name": "void", "layer": "foreground", "solid": true}
+            ]
+        },
+        {
+            "name":"arrows",
+            "solid":false,
+            "index":3,
+            "layer":"foreground",
+            "blocks": [
+                {"name":"left"},
+                {"name":"up"},
+                {"name":"right"},
+                {"name":"down"},
+                {"name":"dot"}
+            ]
+        },
+        {
+            "name": "basic",
+            "index": 8,
+            "layer": "foreground",
+            "blocks": [
+                {"name": "grey"},
+                {"name": "blue"},
+                {"name": "purple"},
+                {"name": "red"},
+                {"name": "yellow"},
+                {"name": "green" },
+                {"name": "cyan"}
+            ]
+        },
+        {
+            "name": "bricks",
+            "index": 15,
+            "layer": "foreground",
+            "blocks": [
+                {"name": "brown"},
+                {"name": "cyan"},
+                {"name": "purple"},
+                {"name": "green"},
+                {"name": "red"},
+                {"name": "yellow"}
+            ]
+        },
+        {
+        	"name":"special",
+        	"layer":"foreground",
+        	"index":21,
+        	"blocks":[
+        		{"name":"stripes"},
+                {"name":"facehappy"},
+                {"name":"facesad"},
+                {"name":"blackblock"},
+                {"name":"crown", "solid":false}
+            ]
+        },
+        {
+            "name":"metals",
+            "layer":"foreground",
+            "index":26,
+            "blocks":[
+                {"name":"white"},
+                {"name":"red"},
+                {"name":"yellow"}
+            ]
+        },
+        {
+            "name":"grass",
+            "layer":"foreground",
+            "index":29,
+            "blocks":[
+                {"name":"left"},
+                {"name":"middle"},
+                {"name":"right"}
+            ]
+        },
+        {
+            "name":"mushroom",
+            "solid":false,
+            "layer":"foreground",
+            "index":32,
+            "blocks":[
+                {"name":"face", "solid":true},
+                {"name":"top"},
+                {"name":"middle"},
+                {"name":"bottom"}
+            ]
+        },
+        {
+            "name":"idkyet",
+            "layer":"background",
+            "index":36,
+            "blocks":[
+                {"name": "red"},
+                {"name": "brown"},
+                {"name": "yellow"},
+                {"name": "green"},
+                {"name": "blue"},
+                {"name": "black"}
+            ]
+        }
+    ]
+}
